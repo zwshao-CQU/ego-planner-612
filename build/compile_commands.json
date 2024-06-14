@@ -1,0 +1,217 @@
+[
+{
+  "directory": "/home/zw/ego-planner/build/gtest/googlemock",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -isystem /usr/src/googletest/googlemock/include -isystem /usr/src/googletest/googlemock -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -O3 -DNDEBUG -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /usr/src/googletest/googlemock/src/gmock_main.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/zw/ego-planner/build/gtest/googlemock",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -O3 -DNDEBUG -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /usr/src/googletest/googlemock/src/gmock-all.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/zw/ego-planner/build/gtest/googletest",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -O3 -DNDEBUG -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/googletest/googletest/src/gtest_main.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/home/zw/ego-planner/build/gtest/googletest",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -O3 -DNDEBUG -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/zw/ego-planner/build/uav_simulator/Utils/quadrotor_msgs",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"quadrotor_msgs\\\" -Dencode_msgs_EXPORTS -I/home/zw/ego-planner/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/zw/ego-planner/src/uav_simulator/Utils/quadrotor_msgs/include -I/usr/include/eigen3  -O3 -DNDEBUG -fPIC   -o CMakeFiles/encode_msgs.dir/src/encode_msgs.cpp.o -c /home/zw/ego-planner/src/uav_simulator/Utils/quadrotor_msgs/src/encode_msgs.cpp",
+  "file": "/home/zw/ego-planner/src/uav_simulator/Utils/quadrotor_msgs/src/encode_msgs.cpp"
+},
+{
+  "directory": "/home/zw/ego-planner/build/uav_simulator/Utils/quadrotor_msgs",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"quadrotor_msgs\\\" -Ddecode_msgs_EXPORTS -I/home/zw/ego-planner/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/zw/ego-planner/src/uav_simulator/Utils/quadrotor_msgs/include -I/usr/include/eigen3  -O3 -DNDEBUG -fPIC   -o CMakeFiles/decode_msgs.dir/src/decode_msgs.cpp.o -c /home/zw/ego-planner/src/uav_simulator/Utils/quadrotor_msgs/src/decode_msgs.cpp",
+  "file": "/home/zw/ego-planner/src/uav_simulator/Utils/quadrotor_msgs/src/decode_msgs.cpp"
+},
+{
+  "directory": "/home/zw/ego-planner/build/uav_simulator/map_generator",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"map_generator\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -Wall -g   -std=c++11 -std=c++14 -o CMakeFiles/random_forest.dir/src/random_forest_sensing.cpp.o -c /home/zw/ego-planner/src/uav_simulator/map_generator/src/random_forest_sensing.cpp",
+  "file": "/home/zw/ego-planner/src/uav_simulator/map_generator/src/random_forest_sensing.cpp"
+},
+{
+  "directory": "/home/zw/ego-planner/build/planner/plan_env",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"plan_env\\\" -Dplan_env_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /home/zw/ego-planner/src/planner/plan_env/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv4 -isystem /usr/include/pcl-1.10 -isystem /usr/include/eigen3 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -Wall -g -fPIC   -std=c++11 -std=c++14 -o CMakeFiles/plan_env.dir/src/grid_map.cpp.o -c /home/zw/ego-planner/src/planner/plan_env/src/grid_map.cpp",
+  "file": "/home/zw/ego-planner/src/planner/plan_env/src/grid_map.cpp"
+},
+{
+  "directory": "/home/zw/ego-planner/build/planner/plan_env",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"plan_env\\\" -Dplan_env_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /home/zw/ego-planner/src/planner/plan_env/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv4 -isystem /usr/include/pcl-1.10 -isystem /usr/include/eigen3 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -Wall -g -fPIC   -std=c++11 -std=c++14 -o CMakeFiles/plan_env.dir/src/raycast.cpp.o -c /home/zw/ego-planner/src/planner/plan_env/src/raycast.cpp",
+  "file": "/home/zw/ego-planner/src/planner/plan_env/src/raycast.cpp"
+},
+{
+  "directory": "/home/zw/ego-planner/build/planner/path_searching",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"path_searching\\\" -Dpath_searching_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /home/zw/ego-planner/src/planner/path_searching/include -isystem /home/zw/ego-planner/src/planner/plan_env/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv4 -isystem /usr/include/pcl-1.10 -isystem /usr/include/eigen3 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -Wall -g -fPIC   -std=c++11 -std=c++14 -o CMakeFiles/path_searching.dir/src/dyn_a_star.cpp.o -c /home/zw/ego-planner/src/planner/path_searching/src/dyn_a_star.cpp",
+  "file": "/home/zw/ego-planner/src/planner/path_searching/src/dyn_a_star.cpp"
+},
+{
+  "directory": "/home/zw/ego-planner/build/planner/bspline_opt",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"bspline_opt\\\" -Dbspline_opt_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /home/zw/ego-planner/src/planner/bspline_opt/include -isystem /home/zw/ego-planner/src/planner/plan_env/include -isystem /home/zw/ego-planner/src/planner/path_searching/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv4 -isystem /usr/include/pcl-1.10 -isystem /usr/include/eigen3 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -Wall -g -fPIC   -std=c++11 -std=c++14 -o CMakeFiles/bspline_opt.dir/src/uniform_bspline.cpp.o -c /home/zw/ego-planner/src/planner/bspline_opt/src/uniform_bspline.cpp",
+  "file": "/home/zw/ego-planner/src/planner/bspline_opt/src/uniform_bspline.cpp"
+},
+{
+  "directory": "/home/zw/ego-planner/build/planner/bspline_opt",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"bspline_opt\\\" -Dbspline_opt_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /home/zw/ego-planner/src/planner/bspline_opt/include -isystem /home/zw/ego-planner/src/planner/plan_env/include -isystem /home/zw/ego-planner/src/planner/path_searching/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv4 -isystem /usr/include/pcl-1.10 -isystem /usr/include/eigen3 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -Wall -g -fPIC   -std=c++11 -std=c++14 -o CMakeFiles/bspline_opt.dir/src/bspline_optimizer.cpp.o -c /home/zw/ego-planner/src/planner/bspline_opt/src/bspline_optimizer.cpp",
+  "file": "/home/zw/ego-planner/src/planner/bspline_opt/src/bspline_optimizer.cpp"
+},
+{
+  "directory": "/home/zw/ego-planner/build/planner/bspline_opt",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"bspline_opt\\\" -Dbspline_opt_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /home/zw/ego-planner/src/planner/bspline_opt/include -isystem /home/zw/ego-planner/src/planner/plan_env/include -isystem /home/zw/ego-planner/src/planner/path_searching/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv4 -isystem /usr/include/pcl-1.10 -isystem /usr/include/eigen3 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -Wall -g -fPIC   -std=c++11 -std=c++14 -o CMakeFiles/bspline_opt.dir/src/gradient_descent_optimizer.cpp.o -c /home/zw/ego-planner/src/planner/bspline_opt/src/gradient_descent_optimizer.cpp",
+  "file": "/home/zw/ego-planner/src/planner/bspline_opt/src/gradient_descent_optimizer.cpp"
+},
+{
+  "directory": "/home/zw/ego-planner/build/uav_simulator/Utils/pose_utils",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"pose_utils\\\" -Dpose_utils_EXPORTS -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/zw/ego-planner/src/uav_simulator/Utils/pose_utils/include  -O3 -DNDEBUG -fPIC   -o CMakeFiles/pose_utils.dir/src/pose_utils.cpp.o -c /home/zw/ego-planner/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp",
+  "file": "/home/zw/ego-planner/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp"
+},
+{
+  "directory": "/home/zw/ego-planner/build/uav_simulator/Utils/odom_visualization",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"odom_visualization\\\" -I/home/zw/ego-planner/src/uav_simulator/Utils/odom_visualization/include -I/home/zw/ego-planner/devel/include -I/home/zw/ego-planner/src/uav_simulator/Utils/pose_utils/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -O3 -Wall -g -O3 -DNDEBUG   -o CMakeFiles/odom_visualization.dir/src/odom_visualization.cpp.o -c /home/zw/ego-planner/src/uav_simulator/Utils/odom_visualization/src/odom_visualization.cpp",
+  "file": "/home/zw/ego-planner/src/uav_simulator/Utils/odom_visualization/src/odom_visualization.cpp"
+},
+{
+  "directory": "/home/zw/ego-planner/build/uav_simulator/local_sensing",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"local_sensing_node\\\" -isystem /home/zw/ego-planner/devel/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /home/zw/ego-planner/src/uav_simulator/local_sensing/.  -O3 -DNDEBUG   -std=c++11 -std=c++14 -o CMakeFiles/pcl_render_node.dir/src/pointcloud_render_node.cpp.o -c /home/zw/ego-planner/src/uav_simulator/local_sensing/src/pointcloud_render_node.cpp",
+  "file": "/home/zw/ego-planner/src/uav_simulator/local_sensing/src/pointcloud_render_node.cpp"
+},
+{
+  "directory": "/home/zw/ego-planner/build/uav_simulator/mockamap",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mockamap\\\" -I/home/zw/ego-planner/src/uav_simulator/mockamap/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/pcl-1.10 -I/usr/include/vtk-7.1 -I/usr/include/freetype2  -O3 -Wall -g   -std=c++11 -std=c++14 -o CMakeFiles/mockamap_node.dir/src/ces_randommap.cpp.o -c /home/zw/ego-planner/src/uav_simulator/mockamap/src/ces_randommap.cpp",
+  "file": "/home/zw/ego-planner/src/uav_simulator/mockamap/src/ces_randommap.cpp"
+},
+{
+  "directory": "/home/zw/ego-planner/build/uav_simulator/mockamap",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mockamap\\\" -I/home/zw/ego-planner/src/uav_simulator/mockamap/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/pcl-1.10 -I/usr/include/vtk-7.1 -I/usr/include/freetype2  -O3 -Wall -g   -std=c++11 -std=c++14 -o CMakeFiles/mockamap_node.dir/src/maps.cpp.o -c /home/zw/ego-planner/src/uav_simulator/mockamap/src/maps.cpp",
+  "file": "/home/zw/ego-planner/src/uav_simulator/mockamap/src/maps.cpp"
+},
+{
+  "directory": "/home/zw/ego-planner/build/uav_simulator/mockamap",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mockamap\\\" -I/home/zw/ego-planner/src/uav_simulator/mockamap/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/pcl-1.10 -I/usr/include/vtk-7.1 -I/usr/include/freetype2  -O3 -Wall -g   -std=c++11 -std=c++14 -o CMakeFiles/mockamap_node.dir/src/mockamap.cpp.o -c /home/zw/ego-planner/src/uav_simulator/mockamap/src/mockamap.cpp",
+  "file": "/home/zw/ego-planner/src/uav_simulator/mockamap/src/mockamap.cpp"
+},
+{
+  "directory": "/home/zw/ego-planner/build/uav_simulator/mockamap",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mockamap\\\" -I/home/zw/ego-planner/src/uav_simulator/mockamap/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/pcl-1.10 -I/usr/include/vtk-7.1 -I/usr/include/freetype2  -O3 -Wall -g   -std=c++11 -std=c++14 -o CMakeFiles/mockamap_node.dir/src/perlinnoise.cpp.o -c /home/zw/ego-planner/src/uav_simulator/mockamap/src/perlinnoise.cpp",
+  "file": "/home/zw/ego-planner/src/uav_simulator/mockamap/src/perlinnoise.cpp"
+},
+{
+  "directory": "/home/zw/ego-planner/build/uav_simulator/so3_control",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"so3_control\\\" -I/usr/include/eigen3 -I/home/zw/ego-planner/src/uav_simulator/so3_control/include -I/home/zw/ego-planner/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -std=c++11 -O3 -Wall -g   -o CMakeFiles/control_example.dir/src/control_example.cpp.o -c /home/zw/ego-planner/src/uav_simulator/so3_control/src/control_example.cpp",
+  "file": "/home/zw/ego-planner/src/uav_simulator/so3_control/src/control_example.cpp"
+},
+{
+  "directory": "/home/zw/ego-planner/build/uav_simulator/so3_control",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"so3_control\\\" -Dso3_control_nodelet_EXPORTS -I/usr/include/eigen3 -I/home/zw/ego-planner/src/uav_simulator/so3_control/include -I/home/zw/ego-planner/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -std=c++11 -O3 -Wall -g -fPIC   -o CMakeFiles/so3_control_nodelet.dir/src/so3_control_nodelet.cpp.o -c /home/zw/ego-planner/src/uav_simulator/so3_control/src/so3_control_nodelet.cpp",
+  "file": "/home/zw/ego-planner/src/uav_simulator/so3_control/src/so3_control_nodelet.cpp"
+},
+{
+  "directory": "/home/zw/ego-planner/build/uav_simulator/so3_control",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"so3_control\\\" -DSO3Control_EXPORTS -I/usr/include/eigen3 -I/home/zw/ego-planner/src/uav_simulator/so3_control/include -I/home/zw/ego-planner/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -std=c++11 -O3 -Wall -g -fPIC   -o CMakeFiles/SO3Control.dir/src/SO3Control.cpp.o -c /home/zw/ego-planner/src/uav_simulator/so3_control/src/SO3Control.cpp",
+  "file": "/home/zw/ego-planner/src/uav_simulator/so3_control/src/SO3Control.cpp"
+},
+{
+  "directory": "/home/zw/ego-planner/build/uav_simulator/Utils/multi_map_server",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"multi_map_server\\\" -I/home/zw/ego-planner/devel/include -I/home/zw/ego-planner/src/uav_simulator/Utils/multi_map_server/include -I/home/zw/ego-planner/src/uav_simulator/Utils/pose_utils/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -std=c++11 -O3 -Wall -g   -o CMakeFiles/multi_map_visualization.dir/src/multi_map_visualization.cc.o -c /home/zw/ego-planner/src/uav_simulator/Utils/multi_map_server/src/multi_map_visualization.cc",
+  "file": "/home/zw/ego-planner/src/uav_simulator/Utils/multi_map_server/src/multi_map_visualization.cc"
+},
+{
+  "directory": "/home/zw/ego-planner/build/planner/traj_utils",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"traj_utils\\\" -Dqh_QHpointer -Dtraj_utils_EXPORTS -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /home/zw/ego-planner/src/planner/traj_utils/include -isystem /home/zw/ego-planner/src/planner/bspline_opt/include -isystem /home/zw/ego-planner/src/planner/plan_env/include -isystem /home/zw/ego-planner/src/planner/path_searching/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv4 -isystem /usr/include/pcl-1.10 -isystem /usr/include/eigen3 -isystem /usr/include/ni -isystem /usr/include/openni2  -std=c++11  -O3 -Wall -g -fPIC   -o CMakeFiles/traj_utils.dir/src/planning_visualization.cpp.o -c /home/zw/ego-planner/src/planner/traj_utils/src/planning_visualization.cpp",
+  "file": "/home/zw/ego-planner/src/planner/traj_utils/src/planning_visualization.cpp"
+},
+{
+  "directory": "/home/zw/ego-planner/build/planner/traj_utils",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"traj_utils\\\" -Dqh_QHpointer -Dtraj_utils_EXPORTS -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /home/zw/ego-planner/src/planner/traj_utils/include -isystem /home/zw/ego-planner/src/planner/bspline_opt/include -isystem /home/zw/ego-planner/src/planner/plan_env/include -isystem /home/zw/ego-planner/src/planner/path_searching/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv4 -isystem /usr/include/pcl-1.10 -isystem /usr/include/eigen3 -isystem /usr/include/ni -isystem /usr/include/openni2  -std=c++11  -O3 -Wall -g -fPIC   -o CMakeFiles/traj_utils.dir/src/polynomial_traj.cpp.o -c /home/zw/ego-planner/src/planner/traj_utils/src/polynomial_traj.cpp",
+  "file": "/home/zw/ego-planner/src/planner/traj_utils/src/polynomial_traj.cpp"
+},
+{
+  "directory": "/home/zw/ego-planner/build/planner/plan_manage",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"ego_planner\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -isystem /home/zw/ego-planner/devel/include -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /home/zw/ego-planner/src/planner/plan_manage/include -isystem /home/zw/ego-planner/src/planner/plan_env/include -isystem /home/zw/ego-planner/src/planner/path_searching/include -isystem /home/zw/ego-planner/src/planner/bspline_opt/include -isystem /home/zw/ego-planner/src/planner/traj_utils/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv4 -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -Wall -g   -std=c++11 -std=c++14 -o CMakeFiles/ego_planner_node.dir/src/ego_planner_node.cpp.o -c /home/zw/ego-planner/src/planner/plan_manage/src/ego_planner_node.cpp",
+  "file": "/home/zw/ego-planner/src/planner/plan_manage/src/ego_planner_node.cpp"
+},
+{
+  "directory": "/home/zw/ego-planner/build/planner/plan_manage",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"ego_planner\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -isystem /home/zw/ego-planner/devel/include -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /home/zw/ego-planner/src/planner/plan_manage/include -isystem /home/zw/ego-planner/src/planner/plan_env/include -isystem /home/zw/ego-planner/src/planner/path_searching/include -isystem /home/zw/ego-planner/src/planner/bspline_opt/include -isystem /home/zw/ego-planner/src/planner/traj_utils/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv4 -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -Wall -g   -std=c++11 -std=c++14 -o CMakeFiles/ego_planner_node.dir/src/ego_replan_fsm.cpp.o -c /home/zw/ego-planner/src/planner/plan_manage/src/ego_replan_fsm.cpp",
+  "file": "/home/zw/ego-planner/src/planner/plan_manage/src/ego_replan_fsm.cpp"
+},
+{
+  "directory": "/home/zw/ego-planner/build/planner/plan_manage",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"ego_planner\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -isystem /home/zw/ego-planner/devel/include -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /home/zw/ego-planner/src/planner/plan_manage/include -isystem /home/zw/ego-planner/src/planner/plan_env/include -isystem /home/zw/ego-planner/src/planner/path_searching/include -isystem /home/zw/ego-planner/src/planner/bspline_opt/include -isystem /home/zw/ego-planner/src/planner/traj_utils/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv4 -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -Wall -g   -std=c++11 -std=c++14 -o CMakeFiles/ego_planner_node.dir/src/planner_manager.cpp.o -c /home/zw/ego-planner/src/planner/plan_manage/src/planner_manager.cpp",
+  "file": "/home/zw/ego-planner/src/planner/plan_manage/src/planner_manager.cpp"
+},
+{
+  "directory": "/home/zw/ego-planner/build/planner/plan_manage",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"ego_planner\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -isystem /home/zw/ego-planner/devel/include -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /home/zw/ego-planner/src/planner/plan_manage/include -isystem /home/zw/ego-planner/src/planner/plan_env/include -isystem /home/zw/ego-planner/src/planner/path_searching/include -isystem /home/zw/ego-planner/src/planner/bspline_opt/include -isystem /home/zw/ego-planner/src/planner/traj_utils/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv4 -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -Wall -g   -std=c++11 -std=c++14 -o CMakeFiles/traj_server.dir/src/traj_server.cpp.o -c /home/zw/ego-planner/src/planner/plan_manage/src/traj_server.cpp",
+  "file": "/home/zw/ego-planner/src/planner/plan_manage/src/traj_server.cpp"
+},
+{
+  "directory": "/home/zw/ego-planner/build/uav_simulator/Utils/uav_utils",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"uav_utils\\\" -I/home/zw/ego-planner/src/uav_simulator/Utils/uav_utils/include -I/usr/include/eigen3 -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest   -std=c++11 -Wall -O3 -g -O3 -DNDEBUG   -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/uav_utils-test.dir/src/uav_utils_test.cpp.o -c /home/zw/ego-planner/src/uav_simulator/Utils/uav_utils/src/uav_utils_test.cpp",
+  "file": "/home/zw/ego-planner/src/uav_simulator/Utils/uav_utils/src/uav_utils_test.cpp"
+},
+{
+  "directory": "/home/zw/ego-planner/build/uav_simulator/so3_quadrotor_simulator",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"so3_quadrotor_simulator\\\" -I/usr/include/eigen3 -I/home/zw/ego-planner/src/uav_simulator/so3_quadrotor_simulator/include/ode -I/home/zw/ego-planner/src/uav_simulator/so3_quadrotor_simulator/include -I/home/zw/ego-planner/devel/include -I/home/zw/ego-planner/src/uav_simulator/Utils/uav_utils/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -std=c++11 -O3 -Wall -g   -std=c++11 -o CMakeFiles/quadrotor_simulator_so3.dir/src/quadrotor_simulator_so3.cpp.o -c /home/zw/ego-planner/src/uav_simulator/so3_quadrotor_simulator/src/quadrotor_simulator_so3.cpp",
+  "file": "/home/zw/ego-planner/src/uav_simulator/so3_quadrotor_simulator/src/quadrotor_simulator_so3.cpp"
+},
+{
+  "directory": "/home/zw/ego-planner/build/uav_simulator/so3_quadrotor_simulator",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"so3_quadrotor_simulator\\\" -Dquadrotor_dynamics_EXPORTS -I/usr/include/eigen3 -I/home/zw/ego-planner/src/uav_simulator/so3_quadrotor_simulator/include/ode -I/home/zw/ego-planner/src/uav_simulator/so3_quadrotor_simulator/include -I/home/zw/ego-planner/devel/include -I/home/zw/ego-planner/src/uav_simulator/Utils/uav_utils/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -std=c++11 -O3 -Wall -g -fPIC   -std=c++11 -o CMakeFiles/quadrotor_dynamics.dir/src/dynamics/Quadrotor.cpp.o -c /home/zw/ego-planner/src/uav_simulator/so3_quadrotor_simulator/src/dynamics/Quadrotor.cpp",
+  "file": "/home/zw/ego-planner/src/uav_simulator/so3_quadrotor_simulator/src/dynamics/Quadrotor.cpp"
+},
+{
+  "directory": "/home/zw/ego-planner/build/uav_simulator/Utils/rviz_plugins",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_KEYWORDS -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rviz_plugins\\\" -Drviz_plugins_EXPORTS -I/home/zw/ego-planner/src/uav_simulator/Utils/rviz_plugins/include -I/home/zw/ego-planner/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -O3 -DNDEBUG -fPIC   -std=c++11 -fPIC -o CMakeFiles/rviz_plugins.dir/src/pose_tool.cpp.o -c /home/zw/ego-planner/src/uav_simulator/Utils/rviz_plugins/src/pose_tool.cpp",
+  "file": "/home/zw/ego-planner/src/uav_simulator/Utils/rviz_plugins/src/pose_tool.cpp"
+},
+{
+  "directory": "/home/zw/ego-planner/build/uav_simulator/Utils/rviz_plugins",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_KEYWORDS -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rviz_plugins\\\" -Drviz_plugins_EXPORTS -I/home/zw/ego-planner/src/uav_simulator/Utils/rviz_plugins/include -I/home/zw/ego-planner/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -O3 -DNDEBUG -fPIC   -std=c++11 -fPIC -o CMakeFiles/rviz_plugins.dir/src/goal_tool.cpp.o -c /home/zw/ego-planner/src/uav_simulator/Utils/rviz_plugins/src/goal_tool.cpp",
+  "file": "/home/zw/ego-planner/src/uav_simulator/Utils/rviz_plugins/src/goal_tool.cpp"
+},
+{
+  "directory": "/home/zw/ego-planner/build/uav_simulator/Utils/rviz_plugins",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_KEYWORDS -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rviz_plugins\\\" -Drviz_plugins_EXPORTS -I/home/zw/ego-planner/src/uav_simulator/Utils/rviz_plugins/include -I/home/zw/ego-planner/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -O3 -DNDEBUG -fPIC   -std=c++11 -fPIC -o CMakeFiles/rviz_plugins.dir/src/probmap_display.cpp.o -c /home/zw/ego-planner/src/uav_simulator/Utils/rviz_plugins/src/probmap_display.cpp",
+  "file": "/home/zw/ego-planner/src/uav_simulator/Utils/rviz_plugins/src/probmap_display.cpp"
+},
+{
+  "directory": "/home/zw/ego-planner/build/uav_simulator/Utils/rviz_plugins",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_KEYWORDS -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rviz_plugins\\\" -Drviz_plugins_EXPORTS -I/home/zw/ego-planner/src/uav_simulator/Utils/rviz_plugins/include -I/home/zw/ego-planner/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -O3 -DNDEBUG -fPIC   -std=c++11 -fPIC -o CMakeFiles/rviz_plugins.dir/src/aerialmap_display.cpp.o -c /home/zw/ego-planner/src/uav_simulator/Utils/rviz_plugins/src/aerialmap_display.cpp",
+  "file": "/home/zw/ego-planner/src/uav_simulator/Utils/rviz_plugins/src/aerialmap_display.cpp"
+},
+{
+  "directory": "/home/zw/ego-planner/build/uav_simulator/Utils/rviz_plugins",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_KEYWORDS -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rviz_plugins\\\" -Drviz_plugins_EXPORTS -I/home/zw/ego-planner/src/uav_simulator/Utils/rviz_plugins/include -I/home/zw/ego-planner/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -O3 -DNDEBUG -fPIC   -std=c++11 -fPIC -o CMakeFiles/rviz_plugins.dir/src/multi_probmap_display.cpp.o -c /home/zw/ego-planner/src/uav_simulator/Utils/rviz_plugins/src/multi_probmap_display.cpp",
+  "file": "/home/zw/ego-planner/src/uav_simulator/Utils/rviz_plugins/src/multi_probmap_display.cpp"
+},
+{
+  "directory": "/home/zw/ego-planner/build/uav_simulator/Utils/rviz_plugins",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_KEYWORDS -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rviz_plugins\\\" -Drviz_plugins_EXPORTS -I/home/zw/ego-planner/src/uav_simulator/Utils/rviz_plugins/include -I/home/zw/ego-planner/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -O3 -DNDEBUG -fPIC   -std=c++11 -fPIC -o CMakeFiles/rviz_plugins.dir/src/moc_goal_tool.cpp.o -c /home/zw/ego-planner/build/uav_simulator/Utils/rviz_plugins/src/moc_goal_tool.cpp",
+  "file": "/home/zw/ego-planner/build/uav_simulator/Utils/rviz_plugins/src/moc_goal_tool.cpp"
+},
+{
+  "directory": "/home/zw/ego-planner/build/uav_simulator/Utils/rviz_plugins",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_KEYWORDS -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rviz_plugins\\\" -Drviz_plugins_EXPORTS -I/home/zw/ego-planner/src/uav_simulator/Utils/rviz_plugins/include -I/home/zw/ego-planner/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -O3 -DNDEBUG -fPIC   -std=c++11 -fPIC -o CMakeFiles/rviz_plugins.dir/src/moc_probmap_display.cpp.o -c /home/zw/ego-planner/build/uav_simulator/Utils/rviz_plugins/src/moc_probmap_display.cpp",
+  "file": "/home/zw/ego-planner/build/uav_simulator/Utils/rviz_plugins/src/moc_probmap_display.cpp"
+},
+{
+  "directory": "/home/zw/ego-planner/build/uav_simulator/Utils/rviz_plugins",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_KEYWORDS -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rviz_plugins\\\" -Drviz_plugins_EXPORTS -I/home/zw/ego-planner/src/uav_simulator/Utils/rviz_plugins/include -I/home/zw/ego-planner/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -O3 -DNDEBUG -fPIC   -std=c++11 -fPIC -o CMakeFiles/rviz_plugins.dir/src/moc_aerialmap_display.cpp.o -c /home/zw/ego-planner/build/uav_simulator/Utils/rviz_plugins/src/moc_aerialmap_display.cpp",
+  "file": "/home/zw/ego-planner/build/uav_simulator/Utils/rviz_plugins/src/moc_aerialmap_display.cpp"
+},
+{
+  "directory": "/home/zw/ego-planner/build/uav_simulator/Utils/rviz_plugins",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_KEYWORDS -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rviz_plugins\\\" -Drviz_plugins_EXPORTS -I/home/zw/ego-planner/src/uav_simulator/Utils/rviz_plugins/include -I/home/zw/ego-planner/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -O3 -DNDEBUG -fPIC   -std=c++11 -fPIC -o CMakeFiles/rviz_plugins.dir/src/moc_multi_probmap_display.cpp.o -c /home/zw/ego-planner/build/uav_simulator/Utils/rviz_plugins/src/moc_multi_probmap_display.cpp",
+  "file": "/home/zw/ego-planner/build/uav_simulator/Utils/rviz_plugins/src/moc_multi_probmap_display.cpp"
+},
+{
+  "directory": "/home/zw/ego-planner/build/uav_simulator/Utils/waypoint_generator",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waypoint_generator\\\" -I/home/zw/ego-planner/src/uav_simulator/Utils/waypoint_generator/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp   -std=c++11 -Wall -O3 -march=native -O3 -DNDEBUG   -o CMakeFiles/waypoint_generator.dir/src/waypoint_generator.cpp.o -c /home/zw/ego-planner/src/uav_simulator/Utils/waypoint_generator/src/waypoint_generator.cpp",
+  "file": "/home/zw/ego-planner/src/uav_simulator/Utils/waypoint_generator/src/waypoint_generator.cpp"
+}
+]
