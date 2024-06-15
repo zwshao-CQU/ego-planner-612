@@ -36,8 +36,12 @@ void stateToOdomMsg(const QuadrotorSimulator::Quadrotor::State& state,
 void quadToImuMsg(const QuadrotorSimulator::Quadrotor& quad,
                   sensor_msgs::Imu&                    imu);
 
-/* 这段代码实现了一个四旋翼飞行器的底层控制器(Geometric Controller)。 下位机(onboard controller)的控制
-   它的作用是根据飞行器当前的状态(位置、姿态、角速度)和 订阅的控制命令(期望力、期望姿态、控制增益等),计算出四个电机的期望转速,作为控制输出。 */
+/* 
+  这段代码实现了一个四旋翼飞行器的底层控制器(Geometric Controller)。 下位机(onboard controller)的控制SE3控制
+    它的作用是根据飞行器当前的状态(位置、姿态、角速度)和 订阅的控制命令(期望力、期望姿态、控制增益等),计算出四个电机的期望转速,作为控制输出。 
+    来源：Geometric Tracking Control of a Quadrotor UAV on SE(3)
+          Minimum Snap Trajectory Generation and Control for Quadrotors （引用了上面的文章）
+*/
 static Control
 getControl(const QuadrotorSimulator::Quadrotor& quad, const Command& cmd)
 {

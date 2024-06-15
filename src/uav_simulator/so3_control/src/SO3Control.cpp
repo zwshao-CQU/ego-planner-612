@@ -35,13 +35,10 @@ SO3Control::setVelocity(const Eigen::Vector3d& velocity)
 }
 
 /* 
-  这段代码实现了一个SO3控制器,用于计算期望的力force_和期望的姿态orientation_,以使无人机能够跟踪给定的位置、速度、加速度和航向角。
-
-  SO3指的是 特殊正交群(Special Orthogonal Group)。
-  特殊正交群SO(3)是三维欧几里得空间中所有旋转矩阵的集合。它描述了在三维空间中物体可能发生的所有旋转。
-  在四轴飞行器的控制中,SO3控制指的是直接控制飞行器的三维空间姿态(即滚转、俯仰和偏航角),而不是分别控制个别角度。
-  这种控制方法可以更好地表达飞行器的运动特性,并且可以设计出更加优秀的控制算法。
-  相比于仅控制个别角度的方法,SO3控制可以更好地抑制外部干扰,提高飞行器的稳定性和机动性能。这也是目前四轴飞行器控制中广泛采用的一种先进控制策略。
+  这段代码实现了一个SE3控制器,用于计算期望的力force_和期望的姿态orientation_,以使无人机能够跟踪给定的位置、速度、加速度和航向角。
+  上层控制器
+    输入：四旋翼总推力F
+    输出：无人机位置和偏航角  以跟踪 期望轨迹所提供的期望位置des_pos和期望偏航角des_yaw
 */
 void
 SO3Control::calculateControl(const Eigen::Vector3d& des_pos,
@@ -125,7 +122,7 @@ SO3Control::calculateControl(const Eigen::Vector3d& des_pos,
     根据期望控制力force_和期望的偏航角des_yaw,计算出期望的四元数orientation_,即无人机的期望姿态
     也就是说，为了得到期望的force_和des_yaw,无人机的姿态orientation_也需要唯一确定,使得force_和des_yaw能够同时被满足
   */
-  Eigen::Vector3d b1c, b2c, b3c;  // 无人机机体坐标系的三个基向量
+  Eigen::Vector3d b1c, b2c, b3c;  // 无人机机体坐标系在期望位置的三个基向量
   Eigen::Vector3d b1d(cos(des_yaw), sin(des_yaw), 0);   // 期望的偏航角在水平面内的投影
 
   if (force_.norm() > 1e-6)   // 如果force_的范数大于一个很小的值(避免除0错误)
@@ -133,13 +130,13 @@ SO3Control::calculateControl(const Eigen::Vector3d& des_pos,
   else
     b3c.noalias() = Eigen::Vector3d(0, 0, 1);   // 否则赋值为(0,0,1)
 
-  b2c.noalias() = b3c.cross(b1d).normalized();  // b2c垂直于b3c和b1d,代表机体y轴方向。
+  b2c.noalias() = b3c.cross(b1d).normalized();  // b2c垂直于b3c和b1d,代表期望位置机体坐标系的y轴方向。
   b1c.noalias() = b2c.cross(b3c).normalized();
 
   Eigen::Matrix3d R;  // 将b1c,b2c,b3c作为机体坐标系三个基向量的列向量,构造 旋转矩阵R。
   R << b1c, b2c, b3c;
 
-  orientation_ = Eigen::Quaterniond(R);   // 使用旋转R计算四元数,代表了无人机的期望姿态orientation_
+  orientation_ = Eigen::Quaterniond(R);   // 使用旋转R计算四元数,最终得到了 无人机在当前时刻的 期望姿态orientation_
 }
 
 const Eigen::Vector3d&
